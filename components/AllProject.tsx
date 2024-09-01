@@ -4,7 +4,7 @@ import { FaLocationArrow } from 'react-icons/fa6'
 import MagicButton from './ui/MagicButton'
 import { PinContainer } from './ui/Pin3d'
 
-const RecentProjects = () => {
+const AllProjects = () => {
     return (
         <div className="py-20" id="projects">
 
@@ -68,7 +68,7 @@ const RecentProjects = () => {
                 ))
                 }
                 <div className="mt-8 md:-mt-14">
-                    <Link href={"#"}>
+                    <Link href={"/projects"}>
                         <MagicButton
                             title="See More"
                             icon={<FaLocationArrow />}
@@ -84,4 +84,4 @@ const RecentProjects = () => {
     )
 }
 
-export default RecentProjects;
+export default AllProjects;

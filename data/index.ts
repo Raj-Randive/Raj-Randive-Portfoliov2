@@ -22,34 +22,23 @@ export const aboutMe = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
+    imgClassName: "",
+    titleClassName: "",
+    img: "",
     spareImg: "",
   },
   {
     id: 2,
-    title: "Tech enthusiast with a passion for development.",
+    title: "",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-4",
     imgClassName: "",
-    titleClassName: "justify-start",
+    titleClassName: "",
     img: "/grid.svg",
-    spareImg: "/b4.svg",
-  },
-
-  {
-    id: 3,
-    title: "Currently building a VS Code Extension",
-    description: "The Inside Scoop",
-    className: "md:col-span-2 md:row-span-3",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    spareImg: "",
   },
 ];
 
@@ -335,14 +324,7 @@ export const workExperience = [
     title: "BISAG-N",
     desc: "Assisted in the development of a web-based platform using React.js, Nodejs, Flask, Redis, enhancing interactivity.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    thumbnail: "./bisagn-logo2.jpg",
   },
 ];
 

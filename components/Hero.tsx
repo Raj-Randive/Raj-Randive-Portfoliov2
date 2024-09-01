@@ -58,7 +58,7 @@ const Hero = () => {
     const imageUrl = "/pp4.jpg";
 
     return (
-        <div className='pb-20 md:pt-28 pt-4'>
+        <div className='pb-20 md:pt-28 pt-2'>
 
             <div>
                 <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='white' />
